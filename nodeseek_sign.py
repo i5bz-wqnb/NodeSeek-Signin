@@ -13,7 +13,7 @@ telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN","")
 chat_id = os.environ.get("CHAT_ID","")
 telegram_api_url = os.environ.get("TELEGRAM_API_URL","https://api.telegram.org") # 代理api,可以使用自己的反代
 def telegram_Bot(token,chat_id,message):
-    url = f'{https://api.telegram.org}/bot7481906122:AAG_D9bBJYvCWeqsTmPqDVmAbQWTkYVjGu4/sendMessage?chat_id=1368887998&text=#NEZHA#'
+    url = f'{telegram_api_url}/bot{7481906122:AAG_D9bBJYvCWeqsTmPqDVmAbQWTkYVjGu4}/sendMessage
     data = {
         'chat_id': chat_id,
         'text': message
