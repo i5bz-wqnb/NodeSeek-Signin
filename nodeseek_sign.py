@@ -9,8 +9,8 @@ COOKIE = os.environ.get("COOKIE", "session=e8c07b8fc9191ea285a6153afe73f9a4; sma
 COOKIE_ENV = NS_COOKIE or COOKIE
 
 pushplus_token = os.environ.get("PUSHPLUS_TOKEN")
-telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN","")
-chat_id = os.environ.get("CHAT_ID","")
+telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN","7481906122:AAG_D9bBJYvCWeqsTmPqDVmAbQWTkYVjGu4")
+chat_id = os.environ.get("CHAT_ID","1368887998")
 telegram_api_url = os.environ.get("TELEGRAM_API_URL","https://api.telegram.org") # 代理api,可以使用自己的反代
 def telegram_Bot(token,chat_id,message):
     url = f'{telegram_api_url}/bot{token}/sendMessage'
